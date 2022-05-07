@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  background: #d7c4fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  padding: 3rem;
+  border-radius: 1rem;
+  background: rgba(243, 226, 255, 0.795);
+}
+
+.wrapper-boxes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+.box {
+ width: 3rem;
+ height: 3rem;
+ background: rgba(255, 255, 255, 0.89);
+ border-radius: .5rem;
+ }
+
+ .box-item {
+   width: 3rem;
+   height: 3rem;
+   background: rgb(196, 168, 231);
+   border-radius: .5rem;
+ }
+
+ .translate-x-negativo {
+   transform: translateX(-1.5rem);
+ }
+
+ .translate-y-negativo{
+   transform: translateY(-1.5rem);
+ }
+
+ .translate-xy-negativo{
+   transform: translate(-1.5rem, -1.5rem);
+ }
+
+ .translate-x-positivo {
+   transform: translateX(1.5rem);
+ }
+
+ .translate-y-positivo{
+   transform: translateY(1.5rem);
+ }
+
+ .translate-xy-positivo{
+   transform: translate(1.5rem, 1.5rem);
+ }
+
+ .abobrinha-x-negativo {
+   transform: translate(-1.5rem, -1.5rem);
+ }
+
+ .naosei-xy-positivo {
+   transform: translate(1.5rem, 1rem);
+ }
+
+ .goiabada-y-positivo {
+   transform: translate(1.5rem, 1.5rem);
+ }

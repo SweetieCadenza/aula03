@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  background: #d7c4fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  padding: 3rem;
+  border-radius: 1rem;
+  background: rgba(243, 226, 255, 0.795);
+}
+
+.wrapper-boxes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5rem;
+}
+
+.box {
+  width: 5rem;
+  height: 5rem;
+  background: cornsilk;
+}
+
+.box-item {
+  width: 5rem;
+  height: 5rem;
+  background: rgb(226, 182, 255);
+}
+
+.skew-x-negativo {
+  transform: skewX(-25deg);
+}
+
+.skew-y-negativo {
+  transform: skewY(-25deg);
+}
+.skew-xy-negativo {
+  transform: skew(-25deg, -25deg);
+}
+
+.skew-x-positivo {
+  transform: skewX(25deg);
+}
+
+.skew-y-positivo {
+  transform: skewY(25deg);
+}
+
+.skew-xy-positivo {
+  transform: skew(25deg, 25deg);
+}
+
+.cinderela-x-negativo {
+  transform: skewX(-25deg);
+}
+
+.aurora-y-positivo {
+  transform: skewY(25deg);
+}
+
+.rapunzel-xy-negativo {
+  transform: skew(-25deg, -25deg);
+}

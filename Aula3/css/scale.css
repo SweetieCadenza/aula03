@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  background: #d7c4fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  padding: 3rem;
+  border-radius: 1rem;
+  background: rgba(243, 226, 255, 0.795);
+}
+
+.wrapper-boxes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5rem;
+}
+
+.box {
+  width: 5rem;
+  height: 5rem;
+  background: cornsilk;
+}
+
+.box-item {
+  width: 5rem;
+  height: 5rem;
+  background: rgb(226, 182, 255);
+}
+
+.scale-x-negativo {
+  transform: scaleX(0.5);
+}
+
+.scale-y-negativo {
+  transform: scaleY(0.75);
+}
+
+.scale-xy-negativo {
+  transform: scale(0.75, 0.5);
+}
+
+.scale-x-positivo {
+  transform: scaleX(1.25);
+}
+
+.scale-y-positivo {
+  transform: scaleY(1.35);
+}
+
+.scale-xy-positivo {
+  transform: scale(1.5, 1.1);
+}
+
+.cinderela-x-negativo {
+ transform: scaleX(0.5);
+}
+
+.aurora-y-positivo {
+  transform: scaleY(1.5);
+}
+
+.rapunzel-xy-negativo {
+  transform: scale(0.5, 0.75);
+}
